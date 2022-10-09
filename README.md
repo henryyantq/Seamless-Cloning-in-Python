@@ -13,6 +13,8 @@ And the result is shown below:
 
 <img width="347" alt="image" src="https://user-images.githubusercontent.com/20149275/194751369-80a40ac1-cabb-4117-a776-738450d958df.png">
 
+Warning! Maths ahead!
+
 You can find the source paper here:
 [Poisson Image Editing](https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf)
 
