@@ -1,5 +1,5 @@
 # Seamless-Cloning-in-Python
-A python reproduction of Poisson Image Blend (Seamless Cloning) proposed by MSRA on SIGGRAPH 2004.
+A python reproduction of Poisson Image Blend (Seamless Cloning) proposed by MSRUK on SIGGRAPH 2004.
 
 The foreground is chosen as below:
 
