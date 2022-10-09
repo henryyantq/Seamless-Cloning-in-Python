@@ -18,6 +18,8 @@ Warning! Maths ahead!
 You can find the source paper here:
 [Poisson Image Editing](https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf)
 
+The basic idea of Poisson image blend is to address the seamless cloning problem. It is, in detail, to solve a sparse，relaxed, and positive definite linear system which can be expressed as Ax = b, in which A is a sparse Laplacian matrix corresponding to the unknown blended area, and b is the vector divergence of the source foreground image. 
+
 More blend image ahead! You may easily figure out which part is the foreground in each of the following images:
 
 <img width="491" alt="moon05_fuji075_blend" src="https://user-images.githubusercontent.com/20149275/194752421-77c06471-1d33-4398-80bc-506ec0c7a6b0.png">
