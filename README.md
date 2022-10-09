@@ -20,7 +20,7 @@ You can find the source paper here:
 
 The basic idea of Poisson image blend is to address the seamless cloning problem. It is, in detail, to solve a sparse, relaxed, and positive definite linear system which can be expressed as Ax = b, in which A is a sparse Laplacian matrix corresponding to the unknown blended area, and b is the vector divergence of the source foreground image. 
 
-泊松图像融合的提出是为了解决前景图像无缝融合进背景图像的问题。理论上，对这一问题的解法等同于求解一个稀疏、松弛且正定的线性系统。我们可以用线性表达式 Ax = b 来表达这样一个系统，其中 A 是前景区域内待求像素的拉普拉斯矩阵，而 b 是原前景图像的散度场。
+泊松图像融合的提出是为了解决前景图像无缝融合进背景图像的问题。理论上，对这一问题的解法等同于求解一个稀疏、松弛且正定的线性系统。我们可以用线性表达式 Ax = b 来表达这样一个系统，其中 A 是前景区域内待求像素的拉普拉斯矩阵。请注意这是一个稀疏矩阵。b 是原前景图像的散度场。
 
 More blend image ahead! You may easily figure out which part is the foreground in each of the following images:
 
